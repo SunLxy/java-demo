@@ -4,6 +4,10 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
+/**
+ * @description 使用 XML 方式写sql语句查询
+ * */
+
 @Data
 public class UserInfo {
     /**
