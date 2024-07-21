@@ -48,6 +48,31 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<!--	mybatis-plus 	-->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.5.7</version>
+		</dependency>
+<!--		注意： SpringBoot 3.0 需要 mybatis-spring 3.0.X 版本，否则会报如下错误：
+Invalid value type for attribute 'factoryBeanObjectType'‘': java.lang.String -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+<!--	数据库链接  -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+		<!-- lombok 依赖（免写 setXXX/getXXX 方法） -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
