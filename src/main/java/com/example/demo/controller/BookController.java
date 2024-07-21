@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.mapper.BookMapper;
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/book")
 public class BookController {
   @Resource
